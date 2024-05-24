@@ -1,0 +1,192 @@
+header {
+  z-index: 10;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.pr {
+  position: relative;
+}
+
+.header_flex {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+img {
+  display: block;
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+header .b_socials a {
+  margin: 0 auto;
+  width: 100%;
+}
+
+header .b_socials a,
+header .b_socials svg {
+  display: block;
+}
+header .b_socials svg {
+  margin: 0 auto;
+}
+a.button {
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+.b_logo {
+  padding-block: 0;
+  align-self: stretch;
+}
+.button {
+  display: inline-block;
+  text-transform: uppercase;
+}
+a.button.style1 span {
+  padding: 1.3846em 1.5385em 1.2307em;
+}
+
+.button.style1 span {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(7.5px);
+}
+.button.style1 span,
+.button.style2 span {
+  -webkit-transition: color 0.2s ease-out 0s;
+  -moz-transition: color 0.2s ease-out 0s;
+  -ms-transition: color 0.2s ease-out 0s;
+  -o-transition: color 0.2s ease-out 0s;
+  transition: color 0.2s ease-out 0s;
+}
+.button.style1 span,
+.button.style2 span {
+  display: inline-block;
+  width: 100%;
+}
+
+.button.style1 > span {
+  background-color: var(--action-color);
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: var(--active1);
+}
+@media (min-width: 993px) {
+  .h_container {
+    padding: 1.875em 1.875em 0;
+  }
+}
+
+@media (min-width: 651px) {
+  header .flex {
+    align-items: stretch;
+  }
+  header .b_logo {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7.5px);
+  }
+  header .b_logo {
+    width: 28.5714%;
+  }
+  header .b_socials {
+    display: flex;
+    align-items: stretch;
+    background: rgba(0, 0, 0, 0.1);
+    border-width: 1px 0 1px 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.15);
+    box-shadow: inset 0px 0px 15px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+  }
+  header .b_socials {
+    width: 60.1949%;
+  }
+  header .b_logo {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7.5px);
+  }
+  header .b_logo {
+    width: 28.5714%;
+  }
+  header .b_logo img {
+    width: auto;
+  }
+  header .b_logo img {
+    margin-bottom: -0.75em;
+    height: 60px;
+  }
+  header .b_socials {
+    display: flex;
+    align-items: stretch;
+    background: rgba(0, 0, 0, 0.1);
+    border-width: 1px 0 1px 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.15);
+    box-shadow: inset 0px 0px 15px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+  }
+  header .b_socials {
+    width: 60.1949%;
+  }
+  header .b_link {
+    width: 11.2337%;
+  }
+  header .b_socials > .i_element,
+  header .b_socials > .b_el2 {
+    width: 33.3333%;
+  }
+  header .b_el2 {
+    display: flex;
+  }
+  header .b_el2 > .i_element {
+    width: 50%;
+  }
+  header .i_element {
+    text-align: center;
+  }
+  header .b_socials a,
+  header .i_element.motion_js {
+    position: relative;
+  }
+  header .i_element a {
+    height: 100%;
+    padding: 1.13em;
+  }
+  header .b_link {
+    width: 11.2337%;
+  }
+  .button.style1 {
+    color: #000;
+    padding: 0.3076em;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: linear-gradient(90deg, #fff 1px, transparent 0) 1px 0,
+      linear-gradient(180deg, #fff 1px, transparent 0) 1px 0,
+      linear-gradient(270deg, #fff 1px, transparent 0) 100% 0,
+      linear-gradient(180deg, #fff 1px, transparent 0) 100% 0,
+      linear-gradient(270deg, #fff 1px, transparent 0) 100% 100%,
+      linear-gradient(0deg, #fff 1px, transparent 0) 100% 100%,
+      linear-gradient(90deg, #fff 1px, transparent 0) 1px 100%,
+      linear-gradient(0deg, #fff 1px, transparent 0) 1px 100%;
+    background-repeat: no-repeat;
+    background-size: 6px 6px;
+  }
+  header .b_link a {
+    width: 100%;
+  }
+  .button {
+    font-size: 0.8125em;
+    line-height: 1.2307;
+  }
+}

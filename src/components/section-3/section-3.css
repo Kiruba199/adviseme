@@ -1,0 +1,185 @@
+.pr {
+  position: relative;
+}
+.container {
+  padding: 0;
+}
+.animate.start {
+  opacity: 1;
+}
+.i_section1 .b_tx.animate,
+.i_section .h4s.animate {
+  -webkit-transition-delay: 0.4s;
+  -moz-transition-delay: 0.4s;
+  -ms-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+.l_services {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.i_service img {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.i_service .i_service_body {
+  padding-bottom: 180px;
+}
+
+a:not([class]) {
+  -webkit-transition: color 0.2s ease-out 0s;
+  -moz-transition: color 0.2s ease-out 0s;
+  -ms-transition: color 0.2s ease-out 0s;
+  -o-transition: color 0.2s ease-out 0s;
+  transition: color 0.2s ease-out 0s;
+}
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: var(--active1);
+}
+.animate {
+  -webkit-transition: opacity 0.4s ease-out 0.08s,
+    transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+  -moz-transition: opacity 0.4s ease-out 0.08s,
+    transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+  -ms-transition: opacity 0.4s ease-out 0.08s,
+    transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+  -o-transition: opacity 0.4s ease-out 0.08s,
+    transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+  transition: opacity 0.4s ease-out 0.08s,
+    transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+}
+
+.i_section1 .b_tx.animate,
+.i_section .h4s.animate {
+  -webkit-transition-delay: 0.4s;
+  -moz-transition-delay: 0.4s;
+  -ms-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+.i_section .h3s {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.i_section .h3s span {
+  position: absolute;
+  width: max-content;
+  top: 0;
+  left: 0;
+}
+.h3s {
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--active2);
+}
+.l_services .i_tx:not(:first-child) {
+  margin-top: 1.25em;
+  padding-inline: 12px;
+  padding-bottom: 1.5em;
+}
+p:last-child {
+  margin: 0;
+}
+p {
+  padding: 0;
+}
+.i_tx p {
+  font-size: 0.9em;
+}
+
+.i_service_header {
+  display: flex;
+  align-items: center;
+}
+
+.i_service_header > span {
+  padding-inline: 1em;
+  background: #7000ff4d;
+}
+.i_service_header h4 {
+  font-size: 0.8em;
+  background-color: var(--action-color);
+  padding-inline: 20px;
+  margin: 0;
+  padding-block: 14px;
+  text-transform: uppercase;
+  width: 100%;
+}
+.i_service_header span {
+  padding-block: 0.5em;
+  padding-inline: 1.3em;
+}
+.i_service img {
+  margin-left: auto;
+}
+.i_service {
+  position: relative;
+  width: 100%;
+}
+
+@media (min-width: 651px) {
+  .i_section2 {
+    padding-top: 4.1875em;
+    padding-bottom: 5.1875em;
+  }
+  .i_service {
+    flex-basis: 25%;
+    border: 0.5px solid #5b4b71;
+  }
+  .h3s {
+    font-size: 0.75em;
+  }
+  .i_section .h3s span {
+    -webkit-transform: translate(-30%, -50%);
+    -moz-transform: translate(-30%, -50%);
+    -ms-transform: translate(-30%, -50%);
+    -o-transform: translate(-30%, -50%);
+    transform: translate(-30%, -50%);
+  }
+  .animate {
+    -webkit-transition: opacity 0.4s ease-out 0.08s,
+      transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+    -moz-transition: opacity 0.4s ease-out 0.08s,
+      transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+    -ms-transition: opacity 0.4s ease-out 0.08s,
+      transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+    -o-transition: opacity 0.4s ease-out 0.08s,
+      transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+    transition: opacity 0.4s ease-out 0.08s,
+      transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+  }
+
+  .i_section2 .l_services:not(:first-child) {
+    margin-top: 3.75em;
+  }
+
+  .l_services:after {
+    content: "";
+    background-color: rgba(255, 255, 255, 0.15);
+    position: absolute;
+    display: block;
+    width: 1px;
+    left: -1px;
+    top: 100%;
+  }
+  .l_services:after {
+    height: 5.1875em;
+  }
+}

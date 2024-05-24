@@ -1,0 +1,127 @@
+.pr {
+  position: relative;
+}
+.container {
+  padding: 0;
+}
+.h1s {
+  font-size: 3em;
+  margin: 0;
+  font-family: "Clash Display", sans-serif;
+  text-transform: uppercase;
+}
+.h2s {
+  position: relative;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #6bdcff;
+}
+.sub_head {
+  margin-block: 1em;
+  margin-top: 1.5em;
+}
+
+.i_section1 .b_tx.animate,
+.i_section .h4s.animate {
+  -webkit-transition-delay: 0.4s;
+  -moz-transition-delay: 0.4s;
+  -ms-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.b_el {
+  display: flex;
+  align-items: center;
+}
+
+.i_section1 {
+  background-image: url(/bg-video.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.b_el {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.i_element {
+  vertical-align: sub;
+}
+.let-talk-cta {
+  padding-inline: 47px;
+  padding-block: 18.5px;
+  border: 1px solid var(--white);
+  background: transparent;
+  text-transform: uppercase;
+  margin-top: 35px;
+}
+.let-talk-cta > span {
+  text-shadow: 0px 0px 10px #ffffff;
+  font-weight: 600;
+}
+.text-center {
+  text-align: center;
+}
+
+@media (min-width: 651px) {
+  .i_section1 {
+    padding-top: 10em;
+    padding-bottom: 15em;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    gap: 5em;
+  }
+  .container > div {
+    width: 100%;
+    max-width: 50%;
+    align-self: flex-start;
+  }
+  .container > video {
+    width: 100%;
+    max-width: 50%;
+    align-self: flex-start;
+  }
+  .i_pdd {
+    padding-right: 0 3.75em;
+  }
+  .i_section1 .h1s {
+    max-width: 12.03125em;
+  }
+  .h1s {
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: "Clash Display", sans-serif;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .i_section1 .h2s {
+    max-width: 64.1667em;
+  }
+  .h2s {
+    font-size: 0.75em;
+  }
+  .i_section1 .b_tx {
+    font-size: 1.25em;
+    max-width: 40em;
+  }
+  .i_section1 .i_line1 {
+    height: 100%;
+    top: 0;
+  }
+  .i_section .i_line1 {
+    background-color: rgba(255, 255, 255, 0.15);
+    position: absolute;
+    width: 1px;
+  }
+  .i_section1 .i_line1 {
+    left: 29.375%;
+  }
+}

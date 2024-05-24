@@ -1,0 +1,182 @@
+.pr {
+  position: relative;
+}
+.section-2-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.animate.start {
+  opacity: 1;
+}
+.i_section1 .b_tx.animate,
+.i_section .h4s.animate {
+  -webkit-transition-delay: 0.4s;
+  -moz-transition-delay: 0.4s;
+  -ms-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+.i_section .h3s span:after {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 50%;
+  background-image: url("../../assets/right-arrow.svg");
+  rotate: 180deg;
+  display: inline-block;
+  content: "";
+}
+.l_services {
+  display: flex;
+}
+.l_services.our_key_section {
+  display: block;
+}
+.l_services.our_key_section {
+  gap: 5em;
+}
+.m-12 {
+  margin-top: 1.5em;
+}
+.l_services .i_item {
+  outline: 1px inset rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  background-color: #000000b2;
+  position: relative;
+}
+a:not([class]) {
+  -webkit-transition: color 0.2s ease-out 0s;
+  -moz-transition: color 0.2s ease-out 0s;
+  -ms-transition: color 0.2s ease-out 0s;
+  -o-transition: color 0.2s ease-out 0s;
+  transition: color 0.2s ease-out 0s;
+}
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: var(--active1);
+}
+.animate {
+  -webkit-transition: opacity 0.4s ease-out 0.08s,
+    transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+  -moz-transition: opacity 0.4s ease-out 0.08s,
+    transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+  -ms-transition: opacity 0.4s ease-out 0.08s,
+    transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+  -o-transition: opacity 0.4s ease-out 0.08s,
+    transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+  transition: opacity 0.4s ease-out 0.08s,
+    transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+}
+.l_services .i_item a {
+  display: block;
+  height: 100%;
+  color: inherit;
+}
+.i_section1 .b_tx.animate,
+.i_section .h4s.animate {
+  -webkit-transition-delay: 0.4s;
+  -moz-transition-delay: 0.4s;
+  -ms-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+.i_section .h3s span {
+  position: absolute;
+  width: max-content;
+  top: 0;
+  left: 0;
+  color: #6bdcff;
+}
+.i_section .h3s span:after {
+  margin-left: 1.25em;
+  height: 0.5833em;
+  width: 4.5em;
+}
+.l_services .i_tx:not(:first-child) {
+  margin-top: 1.25em;
+  padding-inline: 12px;
+  padding-bottom: 1.5em;
+}
+p:last-child {
+  margin: 0;
+}
+p {
+  padding: 0;
+}
+.i_tx p {
+  font-size: 0.9em;
+}
+.i_section .h3s span:after {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 50%;
+  background-image: url("../../assets/right-arrow.svg");
+  display: inline-block;
+  content: "";
+}
+.h4s {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0;
+  margin-left: 1.5em;
+  margin-block: 2em;
+  font-size: 2em;
+}
+
+@media (min-width: 651px) {
+  .i_section-2 {
+    padding-top: 4.1875em;
+    padding-bottom: 5.1875em;
+  }
+  .section-2-container {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .h4s {
+    font-size: 2.125em;
+  }
+  .i_section .h3s span {
+    -webkit-transform: translate(-30%, -50%);
+    -moz-transform: translate(-30%, -50%);
+    -ms-transform: translate(-30%, -50%);
+    -o-transform: translate(-30%, -50%);
+    transform: translate(-30%, -50%);
+  }
+  .animate {
+    -webkit-transition: opacity 0.4s ease-out 0.08s,
+      transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+    -moz-transition: opacity 0.4s ease-out 0.08s,
+      transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+    -ms-transition: opacity 0.4s ease-out 0.08s,
+      transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+    -o-transition: opacity 0.4s ease-out 0.08s,
+      transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+    transition: opacity 0.4s ease-out 0.08s,
+      transform 0.42s cubic-bezier(0.4, 0, 1, 1) 0.08s;
+  }
+  .i_section .h3s span:after {
+    margin-left: 1.25em;
+    height: 0.5833em;
+    width: 4.5em;
+  }
+
+  .i_section-2 .l_services:not(:first-child) {
+    margin-top: 3.75em;
+  }
+  .l_services .i_item {
+    /* width: 25%; */
+  }
+  .l_services:after {
+    content: "";
+    background-color: rgba(255, 255, 255, 0.15);
+    position: absolute;
+    display: block;
+    width: 1px;
+    left: -1px;
+    top: 100%;
+  }
+  .l_services:after {
+    height: 5.1875em;
+  }
+}
