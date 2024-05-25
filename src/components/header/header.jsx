@@ -6,15 +6,15 @@ import { stack as Menu } from "react-burger-menu";
 const Header = () => {
   const [isOpen, setOpen] = React.useState(false);
   return (
-    <header id="header">
+    <header id="header" className="outer-container">
       <div className="hidden md:flex h_container pr">
         <div className="header_flex w-full">
           <div className="b_logo">
             <img
               src="/logo.svg"
               className="attachment-full size-full"
-              alt="Blockman PR & Marketing"
-              title="Blockman PR & Marketing"
+              alt=""
+              title=""
             />
           </div>
           <div className="b_socials">
@@ -39,7 +39,7 @@ const Header = () => {
               </div>
               <div className="i_element">
                 <a
-                  href="https://twitter.com/BlockmanPR"
+                  href="https://twitter.com"
                   className="i_social i_social2"
                   target="_blank"
                 >
@@ -146,19 +146,30 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="md:hidden bg-[rgba(255,255,255,.1)] px-2 flex justify-between items-center">
+      <div className="md:hidden backdrop-blur-md	 bg-[rgba(255,255,255,.1)] px-2 flex justify-between items-center">
         <div className="b_logo w-[150px]">
           <img
             src="/logo.svg"
             className="attachment-full size-full"
-            alt="Blockman PR & Marketing"
-            title="Blockman PR & Marketing"
+            alt=""
+            title=""
           />
         </div>
-        <div className="outer-container">
+        <div>
           <div className="inner-container">
-            <Hamburger toggle={isOpen} size={20} />
+            <Hamburger
+              onToggle={(toggle) => {
+                if (toggle) {
+                  document.body.style.overflow = "hidden";
+                } else {
+                  document.body.style.overflow = "auto";
+                }
+                setOpen(toggle);
+              }}
+              size={20}
+            />
           </div>
+
           <Menu
             right
             pageWrapId={"page-wrap"}
@@ -166,12 +177,7 @@ const Header = () => {
             menuClassName="bg-[rgba(255,255,255,.1)] w-full px-5 py-5 flex justify-between items-center"
             overlayClassName="blur-md"
             className="menu-width"
-            // onOpen={() => {
-            //   setOpen(true);
-            // }}
-            // onClose={() => {
-            //   setOpen(false);
-            // }}
+            isOpen={isOpen}
           >
             <a
               href="/"

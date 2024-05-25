@@ -36,8 +36,6 @@
     object-fit: contain;
   }
   .b_partner {
-    width: 15%;
-    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;

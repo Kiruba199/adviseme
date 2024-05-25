@@ -130,6 +130,12 @@ footer img {
   position: relative;
   z-index: 10;
 }
+#react-burger-menu-btn {
+  display: none !important;
+}
+.bm-burger-bars {
+  display: none;
+}
 
 .b_partner:before {
   content: "";
@@ -207,6 +213,9 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100dvh !important;
+  backdrop-filter: blur(10px) !important;
+  background: #00000075;
 }
 
 .AccordionHeader > button {

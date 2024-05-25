@@ -25,12 +25,22 @@ const Section = () => {
             </p>
           </div>
           <div>
-            <button className="let-talk-cta">
+            <button
+              className="let-talk-cta cursor-pointer"
+              onClick={() => {
+                const element = document.getElementById("letsTalk");
+                element.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
               <span>Let&apos;s Talk</span>
             </button>
           </div>
         </div>
-        <video className="my-10 md:m-0 md:w-1/2" controls width="100%">
+        <video
+          className="my-10 md:m-0 md:w-1/2 self-start md:self-center lg:self-start"
+          controls
+          width="100%"
+        >
           <source src="/advice.mp4" type="video/mp4" />
         </video>
       </div>

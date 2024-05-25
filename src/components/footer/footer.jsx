@@ -5,8 +5,8 @@ const Footer = () => {
         <img
           src="/logo.svg"
           className="attachment-full w-[200px] ml-3 size-full"
-          alt="Blockman PR & Marketing"
-          title="Blockman PR & Marketing"
+          alt=""
+          title=""
         />
         <div className="text-right">Copyright © 2024 adviceme</div>
         <div className="footer-links">
@@ -21,8 +21,8 @@ const Footer = () => {
         <img
           src="/logo.svg"
           className="attachment-full w-1/3 mx-auto size-full"
-          alt="Blockman PR & Marketing"
-          title="Blockman PR & Marketing"
+          alt=""
+          title=""
         />
 
         <div className="flex mt-4 mb-5 uppercase gap-5 justify-center">
