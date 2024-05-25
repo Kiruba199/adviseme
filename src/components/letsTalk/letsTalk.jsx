@@ -57,7 +57,7 @@ const LetsTalk = () => {
               <CheckboxInput label="Display advertising" />
               <CheckboxInput label="Social media / KOLs" />
               <CheckboxInput label="Partnership" />
-              <CheckboxInput label="Add blockchain development" />
+              <CheckboxInput label="Blockchain development" />
               <CheckboxInput label="Tokenomics" />
             </div>
           </div>

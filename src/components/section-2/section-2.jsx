@@ -11,10 +11,12 @@ const Section2 = () => {
           <div className="h3s animate start">
             <span className="translate-x-[-50%]">Our key</span>
           </div>
-          <h2 className="h4s animate start">Our Keys to Success</h2>
+          <h2 className="h4s animate start h4s text-2xl md:text-3xl lg:text-3xl  xl:text-4xl">
+            Our Keys to Success
+          </h2>
         </div>
-        <div className="l_services flex gap-2 md:gap-[64px] flex-wrap	">
-          <div className="i_item  flex-[40%] md:flex-[20%] ">
+        <div className="l_services flex gap-2 md:gap-5 lg:gap-[30px] justify-evenly xl:gap-[64px] flex-wrap	">
+          <div className="i_item basis-[40%] md:basis-[20%] ">
             <a>
               <div className="b_item">
                 <img
@@ -36,7 +38,7 @@ const Section2 = () => {
               </div>
             </a>
           </div>
-          <div className="i_item  flex-[40%] md:flex-[20%]">
+          <div className="i_item basis-[40%] md:basis-[20%]">
             <a>
               <div className="b_item">
                 <img
@@ -58,7 +60,7 @@ const Section2 = () => {
               </div>
             </a>
           </div>
-          <div className="i_item  flex-[40%] md:flex-[20%]">
+          <div className="i_item basis-[40%] md:basis-[20%]">
             <a>
               <div className="b_item">
                 <img
@@ -80,7 +82,7 @@ const Section2 = () => {
               </div>
             </a>
           </div>
-          <div className="i_item  flex-[40%] md:flex-[20%]">
+          <div className="i_item basis-[40%] md:basis-[20%]">
             <a>
               <div className="b_item">
                 <img src="/Container.png" />

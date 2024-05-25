@@ -88,7 +88,7 @@ const AccordionContent = React.forwardRef(
       {...props}
       ref={forwardedRef}
     >
-      <div className="AccordionContentText px-[15px] py-[5px] md:px-[30px] md:py-[10px] lg:px-[45px] lg:py-[15px] text-sm md:text-lg lg:text-xl">
+      <div className="AccordionContentText px-[15px] py-[20px] md:px-[30px] md:py-[30px] lg:px-[45px] lg:py-[15px] text-sm md:text-lg lg:text-xl">
         {children}
       </div>
     </Accordion.Content>
@@ -97,7 +97,10 @@ const AccordionContent = React.forwardRef(
 
 const FAQ = () => {
   return (
-    <section id="faq" className="i_section section-2-container i_section-2 pr">
+    <section
+      id="faq"
+      className="i_section section-2-container py-20 i_section-2 pr"
+    >
       <img
         style={{
           position: "absolute",
@@ -111,10 +114,12 @@ const FAQ = () => {
       ></img>
       <div className=" pr">
         <div className="i_pdd pr">
-          <div className="h3s animate start">
+          <div className="h3s animate start ">
             <span className="translate-x-[-50%]">FAQ</span>
           </div>
-          <h2 className="h4s animate start">Frequently Asked Questions</h2>
+          <h2 className="h4s animate start h4s text-2xl md:text-3xl lg:text-3xl  xl:text-4xl">
+            Frequently Asked Questions
+          </h2>
         </div>
         <div className="i_pdd pr faq-container max-w-full md:max-w-[80%] lg:max-w-[75%]">
           <Accordions />

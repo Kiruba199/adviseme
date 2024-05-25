@@ -32,7 +32,9 @@ const OurPartner = () => {
   return (
     <section className="i_section pr">
       <div className="ourpartner">
-        <h4 className="h4s">Our Partners</h4>
+        <h4 className="h4s text-2xl md:text-3xl lg:text-3xl  xl:text-4xl">
+          Our Partners
+        </h4>
         <div className="b_partners">
           {partnerLogo.map((logo) => (
             <div

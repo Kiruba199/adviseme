@@ -30,13 +30,10 @@ const ourMediaPartnerLogo = [
 
 const OurMediaPartner = () => {
   return (
-    <div
-      style={{
-        margin: 0,
-      }}
-      className="ourpartner"
-    >
-      <h4 className="h4s">Media Partners</h4>
+    <div className="ourpartner py-20">
+      <h4 className=" h4s text-2xl md:text-3xl lg:text-3xl  xl:text-4xl">
+        Media Partners
+      </h4>
       <div className="b_partners">
         {ourMediaPartnerLogo.map((logo) => (
           <div

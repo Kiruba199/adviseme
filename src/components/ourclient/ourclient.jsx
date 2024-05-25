@@ -31,10 +31,12 @@ const ourclientLogo = [
 const OurClient = () => {
   return (
     <div
-      className="lg:py-[98px] border-t border-b bg-[#111014] border-[#FFFFFF26]"
+      className="lg:py-[98px] border-t border-b py-20 bg-[#111014] border-[#FFFFFF26]"
       id="client"
     >
-      <h4 className="h4s text-center">Our Clients</h4>
+      <h4 className=" text-center h4s text-2xl md:text-3xl lg:text-3xl  xl:text-4xl">
+        Our Clients
+      </h4>
       <div className="b_partners">
         {ourclientLogo.map((logo) => (
           <span
