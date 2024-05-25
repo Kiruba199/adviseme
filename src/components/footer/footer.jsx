@@ -8,7 +8,9 @@ const Footer = () => {
           alt=""
           title=""
         />
-        <div className="text-right">Copyright © 2024 adviceme</div>
+        <div className="text-right">
+          © 2024 Copyright Adviceme.IO. All Rights Reserved
+        </div>
         <div className="footer-links">
           <a>Home</a>
           <a>Services</a>
