@@ -4,8 +4,8 @@ import "./section-1.css";
 const Section = () => {
   return (
     <section className="i_section i_section1 pr pb-20">
-      <div className="section-2-container pr md:flex">
-        <div className="i_pdd md:w-1/2 pt-40">
+      <div className="section-2-container lg:mt-28 pr md:flex lg:gap-10">
+        <div className="i_pdd md:w-1/2  pt-40 sm:pt-10 md:pt-40 lg:pt-0">
           <h1 className="h1s code " role="content">
             Future-Proof Your Crypto Business
           </h1>
@@ -30,7 +30,7 @@ const Section = () => {
             </button>
           </div>
         </div>
-        <video className="my-10 md:m-5 md:w-1/2" controls width="100%">
+        <video className="my-10 md:m-0 md:w-1/2" controls width="100%">
           <source src="/advice.mp4" type="video/mp4" />
         </video>
       </div>

@@ -10,7 +10,7 @@ const Section3 = () => {
       <img
         className="i_ellipse"
         alt="decor"
-        src="https://blockman.pro/wp-content/themes/romanuke/inc/images/ellipse_fiolet.png"
+        src="/ellipse_fiolet.png"
         width={2393}
         height={985}
         style={{
@@ -27,10 +27,10 @@ const Section3 = () => {
           <h2 className="h4s animate start">Our Services</h2>
         </div>
         <div className="l_services  flex-wrap">
-          <div className="i_service border border-[#492774]">
+          <div className="i_service  md:flex-[33%] sm:flex-[50%] lg:flex-[25%] border border-[#492774]">
             <div className="i_service_header">
               <h4>Business Consulting</h4>
-              <span className="h-[48px]">
+              <span className="h-[48px] inline-flex items-center ">
                 <Arrow />
               </span>
             </div>
@@ -45,10 +45,10 @@ const Section3 = () => {
               <img width={120} height={120} src="/consultation.gif" />
             </div>
           </div>
-          <div className="i_service border border-[#492774]">
+          <div className="i_service  md:flex-[33%] sm:flex-[50%] lg:flex-[25%] border border-[#492774]">
             <div className="i_service_header">
               <h4>ICO and Token</h4>
-              <span className="h-[48px]">
+              <span className="h-[48px] inline-flex items-center">
                 <Arrow />
               </span>
             </div>
@@ -63,10 +63,10 @@ const Section3 = () => {
               <img width={120} height={120} src="/ICO Token.gif" />
             </div>
           </div>
-          <div className="i_service border border-[#492774]">
+          <div className="i_service  md:flex-[33%] sm:flex-[50%]  lg:flex-[25%] border border-[#492774]">
             <div className="i_service_header">
               <h4>Exchange and Listing</h4>
-              <span className="h-[48px]">
+              <span className="h-[48px] inline-flex items-center">
                 <Arrow />
               </span>
             </div>
@@ -79,10 +79,10 @@ const Section3 = () => {
               <img width={120} height={120} src="/exchange-service.gif" />
             </div>
           </div>
-          <div className="i_service border border-[#492774]">
+          <div className="i_service  md:flex-[33%] sm:flex-[50%] lg:flex-[25%] border border-[#492774]">
             <div className="i_service_header">
               <h4>DIGITAL MARKETING</h4>
-              <span className="h-[48px]">
+              <span className="h-[48px] inline-flex items-center">
                 <Arrow />
               </span>
             </div>
@@ -97,10 +97,10 @@ const Section3 = () => {
               <img width={120} height={120} src="/digitalmarketing.gif" />
             </div>
           </div>
-          <div className="i_service border border-[#492774]">
+          <div className="i_service  md:flex-[33%] sm:flex-[50%] lg:flex-[25%] border border-[#492774]">
             <div className="i_service_header">
               <h4>branding</h4>
-              <span className="h-[48px]">
+              <span className="h-[48px] inline-flex items-center">
                 <Arrow />
               </span>
             </div>
@@ -114,10 +114,10 @@ const Section3 = () => {
               <img width={120} height={120} src="/branding.gif" />
             </div>
           </div>
-          <div className="i_service border border-[#492774]">
+          <div className="i_service  md:flex-[33%] sm:flex-[50%] lg:flex-[25%] border border-[#492774]">
             <div className="i_service_header">
               <h4>Web Development</h4>
-              <span className="h-[48px]">
+              <span className="h-[48px] inline-flex items-center">
                 <Arrow />
               </span>
             </div>
@@ -132,10 +132,10 @@ const Section3 = () => {
               <img width={120} height={120} src="/webdevelopment.gif" />
             </div>
           </div>
-          <div className="i_service border border-[#492774]">
+          <div className="i_service  md:flex-[33%] sm:flex-[50%] lg:flex-[25%] border border-[#492774]">
             <div className="i_service_header">
               <h4>Recruitment & Staffing</h4>
-              <span className="h-[48px]">
+              <span className="h-[48px] inline-flex items-center">
                 <Arrow />
               </span>
             </div>
@@ -149,10 +149,10 @@ const Section3 = () => {
               <img width={120} height={120} src="/recruiting.gif" />
             </div>
           </div>
-          <div className="i_service border border-[#492774]">
+          <div className="i_service  md:flex-[33%] sm:flex-[50%] lg:flex-[25%] border border-[#492774]">
             <div className="i_service_header">
               <h4>Partnership</h4>
-              <span className="h-[48px]">
+              <span className="h-[48px] inline-flex items-center">
                 <Arrow />
               </span>
             </div>
@@ -164,10 +164,10 @@ const Section3 = () => {
               <img width={120} height={120} src="/partnership.gif" />
             </div>
           </div>
-          <div className="i_service border border-[#492774]">
+          <div className="i_service  md:flex-[33%] sm:flex-[50%] lg:flex-[25%] border border-[#492774]">
             <div className="i_service_header">
               <h4>Security& Compliance</h4>
-              <span className="h-[48px]">
+              <span className="h-[48px] inline-flex items-center">
                 <Arrow />
               </span>
             </div>
@@ -179,10 +179,10 @@ const Section3 = () => {
               <img width={120} height={120} src="/Security.gif" />
             </div>
           </div>
-          <div className="i_service border border-[#492774]">
+          <div className="i_service  md:flex-[33%] sm:flex-[50%] lg:flex-[25%] border border-[#492774]">
             <div className="i_service_header">
               <h4>Investors and Sales</h4>
-              <span className="h-[48px]">
+              <span className="h-[48px] inline-flex items-center">
                 <Arrow />
               </span>
             </div>

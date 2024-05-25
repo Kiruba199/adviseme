@@ -10,13 +10,6 @@ const LetsTalk = () => {
       id="services"
       className="i_section section-2-container i_section-2 pr"
     >
-      {/* <img
-        className="i_ellipse"
-        alt="decor"
-        src="https://blockman.pro/wp-content/themes/romanuke/inc/images/ellipse_fiolet.png"
-        width={2393}
-        height={985}
-      /> */}
       <div className=" pr">
         <div className="i_pdd pr">
           <div className="h3s animate start">
@@ -24,7 +17,7 @@ const LetsTalk = () => {
           </div>
           <h2 className="h4s animate start">Let&apos;s Talk</h2>
         </div>
-        <div className="form-container ">
+        <div className="form-container  max-w-full md:max-w-[100%] lg:max-w-[75%]">
           <div className="form-control">
             <div className="form-label">
               Name <span className="required">*</span>
@@ -64,6 +57,8 @@ const LetsTalk = () => {
               <CheckboxInput label="Display advertising" />
               <CheckboxInput label="Social media / KOLs" />
               <CheckboxInput label="Partnership" />
+              <CheckboxInput label="Add blockchain development" />
+              <CheckboxInput label="Tokenomics" />
             </div>
           </div>
           <div className="form-control">

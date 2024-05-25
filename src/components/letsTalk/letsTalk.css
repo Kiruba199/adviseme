@@ -62,18 +62,15 @@ a {
   padding-inline: 12px;
   padding-bottom: 1.5em;
 }
-p:last-child {
-  margin: 0;
-}
+
 p {
   padding: 0;
 }
 .i_tx p {
-  font-size: 0.9em;
+  font-size: 12px;
 }
 .form-container {
   width: 100%;
-  max-width: 100%;
 }
 .form-control {
   display: block;
@@ -130,7 +127,6 @@ p {
   .form-container {
     margin-top: 51px;
     width: 100%;
-    max-width: 70%;
     margin-left: 2em;
   }
   .i_section .h3s span {

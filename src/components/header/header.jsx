@@ -20,11 +20,7 @@ const Header = () => {
           <div className="b_socials">
             <div className="b_el2">
               <div className="i_element">
-                <a
-                  href="https://www.linkedin.com/company/blockman-pro/"
-                  className="i_social i_social1"
-                  target="_blank"
-                >
+                <a href="" className="i_social i_social1" target="_blank">
                   <svg
                     width={20}
                     height={20}
@@ -86,11 +82,7 @@ const Header = () => {
                 </a>
               </div>
               <div className="i_element">
-                <a
-                  href="mailto:blockman@blockman.pro"
-                  className="i_social i_social4"
-                  target="_blank"
-                >
+                <a href="" className="i_social i_social4" target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={20}
@@ -105,14 +97,48 @@ const Header = () => {
                   </svg>
                 </a>
               </div>
+              <div className="i_element">
+                <a
+                  style={{
+                    height: 50,
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                  href=""
+                  className="i_social h-[30px] i_social4 flex items-center justify-center"
+                  target="_blank"
+                >
+                  <svg
+                    width="35"
+                    height="34"
+                    viewBox="0 0 35 34"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clipPath="url(#clip0_528_2)">
+                      <path
+                        d="M11.5039 8.5C13.7582 8.5 15.9203 9.39553 17.5143 10.9896C19.1084 12.5837 20.0039 14.7457 20.0039 17C20.0039 19.2543 19.1084 21.4163 17.5143 23.0104C15.9203 24.6045 13.7582 25.5 11.5039 25.5C9.24957 25.5 7.08756 24.6045 5.4935 23.0104C3.89944 21.4163 3.00391 19.2543 3.00391 17C3.00391 14.7457 3.89944 12.5837 5.4935 10.9896C7.08756 9.39553 9.24957 8.5 11.5039 8.5ZM24.2539 9.91667C26.3789 9.91667 27.7956 13.0886 27.7956 17C27.7956 20.9114 26.3789 24.0833 24.2539 24.0833C22.1289 24.0833 20.7122 20.9114 20.7122 17C20.7122 13.0886 22.1289 9.91667 24.2539 9.91667ZM29.9206 10.625C30.4589 10.625 30.9292 11.7966 31.1672 13.8068L31.2338 14.4344L31.2607 14.7673L31.3032 15.4672L31.3174 15.8341L31.3344 16.6005L31.3372 17L31.3344 17.3995L31.3174 18.1659L31.3032 18.5343L31.2607 19.2327L31.2324 19.5656L31.1687 20.1932C30.9292 22.2048 30.4603 23.375 29.9206 23.375C29.3822 23.375 28.9119 22.2034 28.6739 20.1932L28.6073 19.5656C28.5976 19.4547 28.5886 19.3437 28.5804 19.2327L28.5379 18.5328C28.5324 18.4106 28.5277 18.2882 28.5237 18.1659L28.5067 17.3995V16.6005L28.5237 15.8341L28.5379 15.4657L28.5804 14.7673L28.6087 14.4344L28.6725 13.8068C28.9119 11.7952 29.3808 10.625 29.9206 10.625Z"
+                        fill="white"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_528_2">
+                        <rect
+                          width="34"
+                          height="34"
+                          fill="white"
+                          transform="translate(0.169922)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
             </div>
             <div className="i_element motion_js" data-body="vis_menu"></div>
           </div>
           <div className="b_link">
-            <a
-              href="https://blockman.pro/#contactform"
-              className="button style1"
-            >
+            <a href="" className="button style1">
               <span>
                 <font>Let&apos;s Talk</font>
               </span>

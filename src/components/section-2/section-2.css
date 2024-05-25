@@ -3,7 +3,7 @@
 }
 .section-2-container {
   width: 90%;
-  margin: 0 auto;
+  margin-inline: auto;
 }
 .animate.start {
   opacity: 1;
@@ -97,15 +97,7 @@ a {
   padding-inline: 12px;
   padding-bottom: 1.5em;
 }
-p:last-child {
-  margin: 0;
-}
-p {
-  padding: 0;
-}
-.i_tx p {
-  font-size: 0.9em;
-}
+
 .i_section .h3s span:after {
   background-repeat: no-repeat;
   background-size: contain;
@@ -120,7 +112,6 @@ p {
   line-height: 1;
   margin: 0;
   margin-left: 1.5em;
-  margin-block: 2em;
   font-size: 2em;
 }
 
@@ -130,8 +121,8 @@ p {
     padding-bottom: 5.1875em;
   }
   .section-2-container {
-    width: 85%;
-    margin: 0 auto;
+    width: 80%;
+    margin-inline: auto;
   }
   .h4s {
     font-size: 2.125em;

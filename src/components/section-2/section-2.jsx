@@ -6,14 +6,6 @@ const Section2 = () => {
       id="services"
       className="i_section section-2-container i_section2 i_section-2 pr"
     >
-      {/* <img
-        className="i_ellipse"
-        alt="decor"
-        src="https://blockman.pro/wp-content/themes/romanuke/inc/images/ellipse_fiolet.png"
-        width={2393}
-        height={985}
-      /> */}
-
       <div>
         <div className="i_pdd pr">
           <div className="h3s animate start">
@@ -35,7 +27,7 @@ const Section2 = () => {
                   <h2 className="h2s code" role="content">
                     Minimize Risk & Maximize ROI:
                   </h2>
-                  <p>
+                  <p className="mt-1 text-sm ">
                     Our technical expertise empowers you to navigate the crypto
                     landscape quickly and efficiently, saving you time and
                     money.
@@ -57,7 +49,7 @@ const Section2 = () => {
                   <h2 className="h2s code" role="content">
                     Become an Industry Leader:
                   </h2>
-                  <p>
+                  <p className="mt-1 text-sm text-sm">
                     We integrate seamlessly into your team, providing the
                     guidance and support you need to excel in the competitive
                     blockchain market.
@@ -71,7 +63,7 @@ const Section2 = () => {
               <div className="b_item">
                 <img
                   style={{
-                    objectPosition: "3px -2px",
+                    objectPosition: "0px -2px",
                   }}
                   src="/container3.jpg"
                 />
@@ -79,7 +71,7 @@ const Section2 = () => {
                   <h2 className="h2s code" role="content">
                     Timely Market Entry
                   </h2>
-                  <p>
+                  <p className="mt-1 text-sm text-sm">
                     We prioritize your marketing initiatives to successful and
                     on-time launch, ensuring you capitalize on market
                     opportunities.
@@ -91,20 +83,14 @@ const Section2 = () => {
           <div className="i_item  flex-[40%] md:flex-[20%]">
             <a>
               <div className="b_item">
-                <img
-                  style={{
-                    objectPosition: "3px -2px",
-                  }}
-                  src="/container3.jpg"
-                />
+                <img src="/Container.png" />
                 <div className="i_tx">
                   <h2 className="h2s code" role="content">
-                    Timely Market Entry
+                    PROMISING quality solutions
                   </h2>
-                  <p>
-                    We prioritize your marketing initiatives to successful and
-                    on-time launch, ensuring you capitalize on market
-                    opportunities.
+                  <p className="mt-1 text-sm text-sm">
+                    Discover our cutting-edge strategies designed to deliver
+                    high-quality, cost-effective products for our clients.
                   </p>
                 </div>
               </div>
