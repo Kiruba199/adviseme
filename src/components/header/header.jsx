@@ -38,11 +38,7 @@ const Header = () => {
                 </a>
               </div>
               <div className="i_element">
-                <a
-                  href="https://twitter.com"
-                  className="i_social i_social2"
-                  target="_blank"
-                >
+                <a href="" className="i_social i_social2" target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={22}
@@ -60,11 +56,7 @@ const Header = () => {
             </div>
             <div className="b_el2">
               <div className="i_element">
-                <a
-                  href="https://t.me/anovello"
-                  className="i_social i_social3"
-                  target="_blank"
-                >
+                <a href="" className="i_social i_social3" target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={20}
@@ -104,7 +96,7 @@ const Header = () => {
                     display: "flex",
                     alignItems: "center",
                   }}
-                  href=""
+                  href=":https://medium.com/@advicemeofficial"
                   className="i_social h-[30px] i_social4 flex items-center justify-center"
                   target="_blank"
                 >

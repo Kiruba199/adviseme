@@ -31,7 +31,9 @@ const Section3 = () => {
         <div className="l_services  flex-wrap">
           <div className="i_service  md:basis-1/3 md:grow-0 sm:basis-1/2 lg:basis-1/4 border border-[#492774]">
             <div className="i_service_header">
-              <h4 className="text-sm md:text-md">Business Consulting</h4>
+              <h4 className="text-sm md:text-md font-semibold">
+                Business Consulting
+              </h4>
               <span className="h-[50px] inline-flex items-center ">
                 <Arrow />
               </span>
@@ -49,14 +51,15 @@ const Section3 = () => {
           </div>
           <div className="i_service  md:basis-1/3 md:grow-0	 sm:basis-1/2 lg:basis-1/4 border border-[#492774]">
             <div className="i_service_header">
-              <h4>ICO and Token</h4>
+              <h4 className="text-sm md:text-md font-semibold">
+                ICO and Token
+              </h4>
               <span className="h-[50px] inline-flex items-center">
                 <Arrow />
               </span>
             </div>
             <div className="i_service_body">
               <ul className="p-5">
-                ICO registration
                 <li>ICO registration</li>
                 <li>White Paper services</li>
                 <li>Tokenomics services</li>
@@ -67,7 +70,9 @@ const Section3 = () => {
           </div>
           <div className="i_service  md:basis-1/3 md:grow-0	 sm:basis-1/2  lg:basis-1/4 border border-[#492774]">
             <div className="i_service_header">
-              <h4>Exchange and Listing</h4>
+              <h4 className="text-sm md:text-md font-semibold">
+                Exchange and Listing
+              </h4>
               <span className="h-[50px] inline-flex items-center">
                 <Arrow />
               </span>
@@ -83,7 +88,9 @@ const Section3 = () => {
           </div>
           <div className="i_service  md:basis-1/3 md:grow-0	 sm:basis-1/2 lg:basis-1/4 border border-[#492774]">
             <div className="i_service_header">
-              <h4>DIGITAL MARKETING</h4>
+              <h4 className="text-sm md:text-md font-semibold">
+                DIGITAL MARKETING
+              </h4>
               <span className="h-[50px] inline-flex items-center">
                 <Arrow />
               </span>
@@ -101,7 +108,7 @@ const Section3 = () => {
           </div>
           <div className="i_service  md:basis-1/3 md:grow-0	 sm:basis-1/2 lg:basis-1/4 border border-[#492774]">
             <div className="i_service_header">
-              <h4>branding</h4>
+              <h4 className="text-sm md:text-md font-semibold">branding</h4>
               <span className="h-[50px] inline-flex items-center">
                 <Arrow />
               </span>
@@ -118,7 +125,9 @@ const Section3 = () => {
           </div>
           <div className="i_service  md:basis-1/3 md:grow-0	 sm:basis-1/2 lg:basis-1/4 border border-[#492774]">
             <div className="i_service_header">
-              <h4>Web Development</h4>
+              <h4 className="text-sm md:text-md font-semibold">
+                Web Development
+              </h4>
               <span className="h-[50px] inline-flex items-center">
                 <Arrow />
               </span>
@@ -136,7 +145,9 @@ const Section3 = () => {
           </div>
           <div className="i_service  md:basis-1/3 md:grow-0	 sm:basis-1/2 lg:basis-1/4 border border-[#492774]">
             <div className="i_service_header">
-              <h4>Recruitment & Staffing</h4>
+              <h4 className="text-sm md:text-md font-semibold">
+                Recruitment & Staffing
+              </h4>
               <span className="h-[50px] inline-flex items-center">
                 <Arrow />
               </span>
@@ -153,7 +164,7 @@ const Section3 = () => {
           </div>
           <div className="i_service  md:basis-1/3 md:grow-0	 sm:basis-1/2 lg:basis-1/4 border border-[#492774]">
             <div className="i_service_header">
-              <h4>Partnership</h4>
+              <h4 className="text-sm md:text-md font-semibold">Partnership</h4>
               <span className="h-[50px] inline-flex items-center">
                 <Arrow />
               </span>
@@ -163,12 +174,19 @@ const Section3 = () => {
                 <li>Partnership / J.V. services</li>
                 <li>Incubator services</li>
               </ul>
-              <img width={120} height={120} src="/partnership.gif" />
+              <img
+                className="rotate-180"
+                width={120}
+                height={120}
+                src="/partnership.gif"
+              />
             </div>
           </div>
           <div className="i_service  md:basis-1/3 md:grow-0	 sm:basis-1/2 lg:basis-1/4 border border-[#492774]">
             <div className="i_service_header">
-              <h4>Security& Compliance</h4>
+              <h4 className="text-sm md:text-md font-semibold">
+                Security& Compliance
+              </h4>
               <span className="h-[50px] inline-flex items-center">
                 <Arrow />
               </span>
@@ -183,7 +201,9 @@ const Section3 = () => {
           </div>
           <div className="i_service  md:basis-1/3 md:grow-0	 sm:basis-1/2 lg:basis-1/4 border border-[#492774]">
             <div className="i_service_header">
-              <h4>Investors and Sales</h4>
+              <h4 className="text-sm md:text-md font-semibold">
+                Investors and Sales
+              </h4>
               <span className="h-[50px] inline-flex items-center">
                 <Arrow />
               </span>
@@ -194,6 +214,42 @@ const Section3 = () => {
                 <li>Digital community management</li>
               </ul>
               <img width={120} height={120} src="/partner.gif" />
+            </div>
+          </div>
+          <div className="i_service  md:basis-1/3 md:grow-0	 sm:basis-1/2 lg:basis-1/4 border border-[#492774]">
+            <div className="i_service_header">
+              <h4 className="text-sm md:text-md font-semibold">Events</h4>
+              <span className="h-[50px] inline-flex items-center">
+                <Arrow />
+              </span>
+            </div>
+            <div className="i_service_body">
+              <ul className="p-5">
+                <li>Partnerships</li>
+                <li>Event sales</li>
+                <li>Sponsorships</li>
+                <li>Roadshows</li>
+                <li>Meetups</li>
+                <li>Event organizing</li>
+              </ul>
+              <img width={120} height={120} src="/Eventd.gif" />
+            </div>
+          </div>
+          <div className="i_service  md:basis-1/3 md:grow-0	 sm:basis-1/2 lg:basis-1/4 border border-[#492774]">
+            <div className="i_service_header">
+              <h4 className="text-sm md:text-md font-semibold">TECH SUPPORT</h4>
+              <span className="h-[50px] inline-flex items-center">
+                <Arrow />
+              </span>
+            </div>
+            <div className="i_service_body">
+              <ul className="p-5">
+                <li>Inbound Tech support</li>
+                <li>Chat support</li>
+                <li>Social Media Chatters</li>
+                <li>Telegram moderators</li>
+              </ul>
+              <img width={120} height={120} src="/ITsupport.gif" />
             </div>
           </div>
         </div>

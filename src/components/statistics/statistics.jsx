@@ -27,7 +27,9 @@ const Statistics = () => {
               end={60}
               duration={5}
             >
-              {({ countUpRef }) => <h5 ref={countUpRef} />}
+              {({ countUpRef }) => (
+                <h5 className="tabular-nums" ref={countUpRef} />
+              )}
             </CountUp>
             <div>Projects Completed</div>
           </div>
@@ -39,7 +41,12 @@ const Statistics = () => {
               end={150}
               duration={5}
             >
-              {({ countUpRef }) => <h5 ref={countUpRef} />}
+              {({ countUpRef }) => (
+                <>
+                  {" "}
+                  <h5 className="tabular-nums" ref={countUpRef} />
+                </>
+              )}
             </CountUp>
             <div>Coins Managed</div>
           </div>
@@ -51,7 +58,9 @@ const Statistics = () => {
               end={120}
               duration={5}
             >
-              {({ countUpRef }) => <h5 ref={countUpRef} />}
+              {({ countUpRef }) => (
+                <h5 className="tabular-nums" ref={countUpRef} />
+              )}
             </CountUp>
             <div>Agency Partners</div>
           </div>
@@ -60,10 +69,15 @@ const Statistics = () => {
               suffix="+"
               enableScrollSpy={true}
               start={0}
-              end={120}
+              end={240}
               duration={5}
             >
-              {({ countUpRef }) => <h5 ref={countUpRef} />}
+              {({ countUpRef }) => (
+                <>
+                  {" "}
+                  <h5 className="tabular-nums" ref={countUpRef} />
+                </>
+              )}
             </CountUp>
             <div>Influencers</div>
           </div>
@@ -75,7 +89,12 @@ const Statistics = () => {
               end={15}
               duration={5}
             >
-              {({ countUpRef }) => <h5 ref={countUpRef} />}
+              {({ countUpRef }) => (
+                <>
+                  {" "}
+                  <h5 className="tabular-nums" ref={countUpRef} />
+                </>
+              )}
             </CountUp>
             <div>Event Partners</div>
           </div>

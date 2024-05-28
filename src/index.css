@@ -298,6 +298,13 @@ h3 {
   text-shadow: 0px 1px 1px #ffffff, 1px 0px 1px #ffffff, 0px -1px 1px #ffffff,
     -1px 0px 1px #ffffff;
 }
+.b_stats h5.tabular-nums:after {
+  content: "+";
+  display: inline-block;
+  position: absolute;
+
+  top: 0px;
+}
 
 .b_stats div {
   margin-top: 20px;
