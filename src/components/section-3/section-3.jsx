@@ -80,7 +80,7 @@ const Section3 = () => {
             <div className="i_service_body">
               <ul className="p-5">
                 <li>Exchange Listing services</li>
-                <li>Financial search and procurement</li>
+                <li>Coin services</li>
                 <li>Payments / Facilitators services</li>
               </ul>
               <img width={120} height={120} src="/exchange-service.gif" />
